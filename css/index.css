@@ -1,0 +1,19 @@
+section {
+    display: flex;
+    background-color: var(--fondo);
+    margin-bottom: 1pc;
+}
+
+table {
+    background: #f2f2f2;
+}
+
+td {
+    background: var(--secundario);
+    padding: 5px;
+}
+
+main section {
+    margin: 0;
+    padding-bottom: 1pc;
+}

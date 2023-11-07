@@ -1,0 +1,15 @@
+main div {
+    display: flex;
+    background: var(--fondo);
+}
+
+div article div {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

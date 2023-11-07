@@ -1,0 +1,12 @@
+main div {
+    display: flex;
+    background: var(--fondo);
+}
+
+div article img {
+    transform: scale(1.5);
+    margin: 47px;
+    transform-box: content-box;
+    border-radius: 3px;
+    vertical-align: middle;
+}

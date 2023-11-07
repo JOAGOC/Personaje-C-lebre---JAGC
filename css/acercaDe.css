@@ -1,0 +1,44 @@
+main div {
+    display: flex;
+    background: var(--fondo);
+    padding-bottom: 1pc;
+}
+
+div article div {
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    padding: 2pc;
+    height: 39pc;
+    border-left: solid var(--header);
+}
+
+main div div {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+main section {
+    padding: 2pc 0 0 2pc;
+}
+
+div section img {
+    float: left;
+    height: 100px;
+}
+
+main div div section {
+    display: flex;
+    align-items: center;
+}
+
+main div div section img {
+    object-fit: fill;
+}
+
+div div section div {
+    padding: 1pc;
+}

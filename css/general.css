@@ -1,0 +1,151 @@
+header {
+    display: flex;
+    height: 5em;
+    border-bottom: solid;
+}
+
+header * {
+    flex: 1;
+    display: flex;
+    text-align: center;
+}
+
+header h1 {
+    display: block;
+    flex: 1;
+    width: auto;
+    text-align: left;
+    margin-left: 1pc;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    font-size: large;
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul li a:hover {
+    border-bottom: white solid;
+}
+
+html {
+    font-family: monospace;
+    color: white;
+    font-size: 1.1em;
+}
+
+header div img {
+    flex: 0;
+}
+
+aside {
+    width: 237.200px;
+    margin: 16px 2pc 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+footer {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: white solid;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    padding: 10px;
+    flex: 1;
+    flex-direction: column;
+    border-block: solid;
+    align-items: center;
+}
+
+form * {
+    margin: 5px;
+    width: 75%;
+    border-radius: 5px;
+    max-width: 75%;
+    min-width: 75%;
+    border: none;
+    outline: none;
+}
+
+header nav {
+    align-items: center;
+}
+
+li {
+    margin: 10px;
+}
+
+article {
+    flex: 1;
+    margin-bottom: 20px;
+    padding-left: 32px;
+}
+
+footer section {
+    width: 615px;
+    background-color: transparent;
+}
+
+footer,
+header {
+    background-color: var(--header);
+}
+
+button {
+    background-color: var(--boton);
+    transition: 0.2s;
+}
+
+button:hover, button:focus-visible {
+    background-color: var(--boton-hover);
+    transition: background-color 0.2s;
+}
+
+:root {
+    --boton: #65B54B;
+    --boton-hover: #c1e1b7;
+    /* Define una variable para el color actual */
+--header: #808DB5;
+--secundario: #6B7F65;
+--fondo: #656B7F;
+}
+
+.mi-elemento {
+    background-color: var(--color-actual);
+    /* Establece el color actual desde la variable */
+}
+
+.mi-elemento-mas-oscuro {
+    background-color: hsla(var(--color-actual, 0%, 20%));
+    /* Hace el color un 20% más oscuro */
+}
+
+body {margin: 0px;}
+
+.shorts div {
+    flex-direction: column;
+    flex: 1;
+    padding: 2pc;
+    justify-content: center;
+    border-block: solid;
+    margin: 4pc;
+}

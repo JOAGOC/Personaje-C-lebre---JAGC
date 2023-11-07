@@ -1,0 +1,36 @@
+main div {
+    background-color: var(--fondo);
+    display: flex;
+}
+
+:root{
+    --section: #656B7F;
+}
+
+section.s1 {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+article section p a {
+    color: inherit;
+}
+
+section {
+    margin: 0 0 20px;
+}
+
+section article {
+    border-left: #8DB580 solid;
+    margin: 2em 2px;
+}
+
+img {
+    /* height: max-content; */
+    /* width: inherit; */
+    /* margin: 0 0 20px; */
+}
+
+section article p {
+    text-align: justify;
+}

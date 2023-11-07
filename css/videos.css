@@ -1,0 +1,20 @@
+main div {
+    display: flex;
+    background: var(--fondo);
+}
+
+div article div {
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    padding: 2pc;
+    height: 39pc;
+    border-left: solid;
+}
+
+.shorts {
+    display: flex;
+    flex-direction: row;
+}
